@@ -6,4 +6,3 @@ Open this bash script on Server from client side using Python Socket Programming
 
 Create a systemd service to run the server script
 
-Create a bash script to install bash script and manage service.
