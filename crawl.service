@@ -1,0 +1,12 @@
+[Unit]
+Description=Crawl Website 
+
+[Service]
+WorkingDirectory=/home/utkarsh/pyProjs/assignments/
+User=utkarsh
+Type=simple
+ExecStart=/home/utkarsh/pyProjs/assignments/code-q2-server.py > /var/log/sanu_daemon.log 2>&1
+StandardInput=tty-force
+
+[Install]
+WantedBy=multi-user.target
